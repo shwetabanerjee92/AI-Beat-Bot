@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
+  <title>Music Generation</title>
+
+</head>
+
+<body>
+  <div class="container-fluid title">
+    <h1>ACL Bot</h1>
+  </div>
+
+  <div class="piano">
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+            <a href="/blues" target="blank">
+            <svg width="80%" height="100%" viewBox="0 0 50 16">
+                <text value="Blues" x="5" y="100" fill="black" font-size="11">Blues</text>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+            <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+          <a href="" target="blank">
+            <a href="/bollywood" target="blank">
+            <svg width="80%" height="100%" viewBox="0 0 50 16">
+                <text value="Bollywood" x="5" y="100" fill="black" font-size="11">Bollywood</text>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+       <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+          <a href="/country" target="blank">
+            <svg width="80%" height="100%" viewBox="0 0 50 16">
+                <text value="Country" x="5" y="100" fill="black" font-size="11">Country</text>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+          <a href="/jazz" target="blank">
+          <svg width="80%" height="100%" viewBox="0 0 50 16">
+            <text value="Jazz" x="10" y="100" fill="black" font-size="11">Jazz</text>
+          </svg>
+          </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+          <a href="/rap" target="blank">
+          <svg width="80%" height="100%" viewBox="0 0 50 16">
+            <text value="Rap" x="10" y="100" fill="black" font-size="11">Rap</text>
+          </svg>
+          </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+            <div class="piano-key">
+        <div class="piano-key__white"></div>
+        <div class="piano-key__black"></div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white">
+          <a href="/ukranian" target="blank">
+            <svg width="80%" height="100%" viewBox="0 0 50 16">
+              <text value="Ukranian" x="5" y="100" fill="black" font-size="11">Ukranian</text>
+            </svg>
+        </a>
+        </div>
+      </div>
+      <div class="piano-key">
+        <div class="piano-key__white"></div>
+      </div>
+    </div>
+
+  <div class="footer">
+    <p> &#169;Copyright Group: Bowie Hand, Darya Rudych, Jessica Serna, Lu Wang, Shweta Banerjee, Yedidya Erque- 2019</p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script type="text/javascript" src="../static/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
