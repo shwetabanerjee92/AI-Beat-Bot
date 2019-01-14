@@ -35,6 +35,8 @@ The model default is to generate a weight file at the end of every epoch.  Once 
 
 ### Resources
 
+Blog post on [Medium](https://medium.com/@cipher813) and music samples on [SoundCloud.](https://soundcloud.com/cipher813)
+
 [“Magenta.”](https://magenta.tensorflow.org/) Tensorflow.
 
 Goodfellow, Ian. ["Deep Learning."](http://www.deeplearningbook.org/) MIT Press. 2016.
