@@ -1,5 +1,7 @@
 # AI Beat-Bot
 
+ ![BeatBot.png](Images/BeatBot.png)
+ 
 Using the concepts of Machine Learning: RNN, LTSM, and CBLTSM the AI Beat Bot was implemented.
 
 The AI Beat-Bot takes as input a collection of midi files and outputs AI generated music. The underlying model is a bidirectional LSTM recurrent neural network which maps the latent space of the collection of files and then samples from this underlying structure.
